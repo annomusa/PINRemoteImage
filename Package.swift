@@ -22,7 +22,7 @@ let package = Package(
     targets: [
         .target(
             name: "PINRemoteImage",
-            dependencies: ["PINCache", "libwebp"],
+            dependencies: ["PINCache"],
             path: "Source/Classes",
             publicHeadersPath: "include",
             cSettings: [
