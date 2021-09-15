@@ -18,9 +18,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/pinterest/PINCache.git", from: "3.0.2"),
-        .package(name: "libwebp",
-                 url: "https://github.com/SDWebImage/libwebp-Xcode",
-                 from: "1.1.0"),
     ],
     targets: [
         .target(
